@@ -6,26 +6,57 @@
 	<title>Real Estate Group-Luxury Homes-About</title> <!-- I am building my first web development real estate website-->
 </head>
 <body>
-<!-- The body is the entire viewable area of the webpage. For example we can see the text, links, images and etc.-->
-	<h1>CHI-CHI'S</h1>
-	<h2>Real Estate Group</h2>
+	<header>
 
-	<!-- links -->
-	<a href="index.html">About</a> <a href="new-properties.html">New Properties</a> <a href="real-estate-listing.html">Real Estate Listing</a> <a href="market-report.html">Market Report</a> <a href="contact.html">Contact</a> <a href="http://hud.gov" target="_blank">H.U.D</a>
+		<h1>CHI-CHI'S</h1>
+		<h2>Real Estate Group</h2>
 
-	<img src="images/pic.jpg" alt="A beautiful living room."" title= "Welcome to Chichi Realty Group">
+		<!-- links -->
+		<nav>
+			<a href="index.html">About</a> <a href="new-properties.html">New Properties</a> <a href="real-estate-listing.html">Real Estate Listing</a> <a href="market-report.html">Market Report</a> <a href="contact.html">Contact</a> <a href="http://hud.gov" target="_blank">H.U.D</a>
+		</nav>
+	</header>
+	<section id="featured-property">
+		<figure>
 
-	<!--
-	foldername/ = go inside the folder
-	filename= use a file in the current directory
-	../= leave the current folder and go to the parent folder.
-	-->
+		<img src="images/pic.jpg" alt="A beautiful living room."" title= "Welcome to Chichi Realty Group">
+			<figcaption>2308 Banana Island. Ikoyi, Lagos - Photo by Denis Richards</figcaption>
+		</figure>
 
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<!--
+		foldername/ = go inside the folder
+		filename= use a file in the current directory
+		../= leave the current folder and go to the parent folder.
+		-->
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, <br> sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, <br> sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</section>
+	
+	<section id="promotional">
+			<!-- video-promo-->
+				<figure>
+					<video>
+						<source src="videos/real-estate.mp4" type="video/mp4">
+					</video>
+						<figcaption>CHICHI'S Real Estate Group Promotional Video - Source: archive.org</figcaption>
+				</figure>
+	</section>
+
+	<footer>
+		&copy; 2017 CHICHI'S Real Estate Group. All Rights Reserved.
+	</footer>
+
 </body>
 </html>
